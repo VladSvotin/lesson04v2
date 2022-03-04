@@ -16,7 +16,7 @@ public class Steps {
         this.b = b;
     }
 
-    @Тогда("^находим (.*) двух числел$")
+    @Тогда("^находим (.*) двух чисел$")
     public void result(String operation) {
         switch (operation) {
             case "сложение":
