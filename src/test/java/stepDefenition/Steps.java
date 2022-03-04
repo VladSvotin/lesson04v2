@@ -40,6 +40,6 @@ public class Steps {
 
     @И("^выводим результат на экран$")
     public void printResult() {
-        System.out.println(action + " чисел " + a + " и " + b + " ровняется " + result);
+        System.out.println(action + " чисел " + a + " и " + b + " равняется " + result);
     }
 }
